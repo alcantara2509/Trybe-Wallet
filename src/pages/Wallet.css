@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header-wallet {
+  color: whitesmoke;
+  display: flex;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.despesa-total {
+  color: #4ba46b;
+  font-weight: 600;
+}
+
+.form-container {
+  color: whitesmoke;
+  background-color: #28282b;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  padding: 40px 180px;
+}
+
+input[type="text"] {
+  background-color: #131314;
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 18px;
+  height: 18px;
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 150px;
+}
+
+#description {
+  width: 380px;
+}
+
+input::backdrop {
+  background-color: #131314;
+}
+
+.valor-descricao {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.selects {
+  display: flex;
+  justify-content: space-between;
+}
+
+select {
+  background-color: #131314;
+  border-color: #131314;
+  border-radius: 5px;
+  color: whitesmoke;
+  height: 26px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+#adicionar-despesa {
+  color: #ffffff;
+  background-color: #4ba46b;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 26px;
+  padding: 0 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+#adicionar-despesa:hover {
+  background-color: #37794f;
+}
+
+.table-container{
+  color: whitesmoke;
+  background-color: #28282b;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  padding: 40px 80px;
+}
+
+thead {
+  background-color: #131314;
+  border-right: #28282b;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+td {
+  border: none;
+  padding: 0 7px;
+}
+
+.my-itens {
+  margin-top: 20px;
+  padding: 0 7px;
+}
+
+#btn-editar {
+  background: none;
+  border: none;
+  color: #4ba46b;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+#btn-excluir {
+  background: none;
+  border: none;
+  color: #ff43439f;
+  cursor: pointer;
+  font-weight: 600;
+  margin-right: 10px;
+}
